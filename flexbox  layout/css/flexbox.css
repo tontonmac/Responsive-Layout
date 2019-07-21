@@ -1,0 +1,40 @@
+
+/* ================================= 
+  Flexbox
+==================================== */
+/*
+.container {
+	display: flex;
+  flex-wrap: wrap;
+  height: 450px;
+  align-items: stretch;
+}
+
+.item {
+  flex-grow: 1;
+  flex-basis: 200px;
+
+  flex: 1 200px;
+}
+
+.item-1 {
+  align-self: flex-start;
+}
+
+.item-2 {
+  flex-grow: 1;
+}
+
+.item-4 {
+  align-self: center;
+} 
+*/
+
+.container {
+  display: flex;
+  min-height: 50vh;
+}
+
+.item {
+  margin: auto;
+}
